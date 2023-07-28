@@ -6,3 +6,4 @@ var args = function(gradScore,hscScore,sscScore,candidateName)
 args(80,86,90,'Ashwini');
 args(70,65,55,'Renuka');
 args(60,79,88,'Lavanya');
+
