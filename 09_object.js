@@ -1,5 +1,6 @@
+//function expression : which function store 
 let personGK = {
-    empId: 2233,
+    empId: 2233,//key : value pair
     state: "MH",
     designation: "Tech Lead",
     city: "Pune",
@@ -86,7 +87,7 @@ let isAvailable= "college" in student;
 const pin = 123456;
 pin = 12134;//can't change constant value
 
-const student = {
+const student1 = {
     rollNumber: 2233,
     state: "MH",
     city: "Pune",
