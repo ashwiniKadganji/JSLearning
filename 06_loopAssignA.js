@@ -1,21 +1,21 @@
 console.log(`-------------step 1----------`);
 // WAP count the total number vowels including small and capital vowels for usinf while loop - > 'i am very good It developer'
-//  console.log( `str = I am very good IT Developer`);
+ console.log( `str = I am very good IT Developer`);
 
-// function vowelsCount(str) {
-//     let count = 0;
-//     for (let index = 0; index < str.length; index++) {
-//         let char = str.charAt(index);
+function vowelsCount(str) {
+    let count = 0;
+    for (let index = 0; index < str.length; index++) {
+        let char = str.charAt(index);
         
-//     while (char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u' || char == 'A' || char == 'E' || char == 'I' || char == 'O' || char == 'U') {
+    if (char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u' || char == 'A' || char == 'E' || char == 'I' || char == 'O' || char == 'U') {
          
-//         console.log(char);
-//         count = count+1;
-//    }
-//  }
-//  console.log(`Total number of vowels is: ${count}`);
-// }
-// vowelsCount(`I am very good IT Developer`);
+        console.log(char);
+        count = count+1;
+   }
+ }
+ console.log(`Total number of vowels is: ${count}`);
+}
+vowelsCount(`I am very good IT Developer`);
 
 
 console.log(`-------------step 2----------`);
