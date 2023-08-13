@@ -85,7 +85,7 @@ for (const key in student) {
 let isAvailable= "college" in student;
 
 const pin = 123456;
-pin = 12134;//can't change constant value
+//pin = 12134;//can't change constant value
 
 const student1 = {
     rollNumber: 2233,

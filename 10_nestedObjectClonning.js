@@ -30,5 +30,5 @@ marks = {
     math: 92
 }
 
-let mergedObject = Object.assign({} , jenny, marks);
+let mergedObject = Object.assign({} , jenny, marks);// merge nested object
 console.table(mergedObject);
