@@ -12,7 +12,7 @@ const emp_radha = new Employee(33,"Radha","HR",74000,"Wipro");
 const emp_rishi = new Employee(55,"Rishi","Finance",47000,"TCS");
 const emp_sonali = new Employee(66,"Sonali","Finance",45000,"Infy");
 const emp_monika = new Employee(77,"Monika","IT",40000,"Wipro");
-const emp_vinay = new Employee(88,"vinay","IT",75000,"TCS");
+const emp_vinay = new Employee(88,"viny","IT",75000,"TCS");
 const emp_mahi = new Employee(99,"Mahi","HR",85000,"Infy");
 
 const arrayEmployees = [emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_vinay,emp_mahi];

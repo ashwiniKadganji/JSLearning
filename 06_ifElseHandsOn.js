@@ -35,8 +35,7 @@ console.log(`-------------------Question 3---------------------`);
 
 function stringStart(str)
 {
-    var name = str.startsWith('Java');
-    if (name==true)
+    if (((str.startsWith('java')) || (str.startsWith('Java')))==true)
     {
         console.log(`YES,The given string '${str}' start with "Java" : ${str}`);
     }
@@ -45,5 +44,6 @@ function stringStart(str)
         console.log(`NO,The given string '${str}' Not  start with "Java" : ${str}`);
     }
 }
+stringStart('javascript');
 stringStart('Javascript');
 stringStart('Python');
