@@ -1,9 +1,7 @@
-// in JS function 
+// in JS we call function as first class citizen  
 // 1. function expression
 // 2. Callback
 
-// why say the function is higher order function ?
-// ans. --> a function that accept functions 
 //------------------------------------------------
 // 3.Function can return another function
 
@@ -14,7 +12,7 @@ function show(){
     }
     return innerfunction;
 }
-let inner = show();
+let inner = show(); //  .....call the innerfunction
 inner();
 //or
 //show()();     .....call the innerfunction
