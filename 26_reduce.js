@@ -1,3 +1,4 @@
+//traditional way
 const array = [2, 4, 7, 9, 11];
 let sum = 0; // 6
 for (const element of array) { // 4
