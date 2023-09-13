@@ -1,5 +1,6 @@
 const arrayNumbers = [20,11,40,25,37,49,9,90,60,2,19];
 
+console.log(`const arrayNumbers = [20,11,40,25,37,49,9,90,60,2,19]`);
 console.log(`-------------step 1----------------`);
 const greaterNum = arrayNumbers.filter((currentValue) => {
       return currentValue > 50;
