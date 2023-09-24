@@ -1,3 +1,4 @@
+
 console.log('======== getElementById() ==========');
 const elementCssTopic = document.getElementById("cssTopics");
 console.log(elementCssTopic.innerHTML);
@@ -23,3 +24,55 @@ for (let index = 0; index < allElementsJsTopics.length; index++) {
     const element = allElementsJsTopics[index].innerHTML;
     console.log(element);  
 }
+// Changing the attribute using JS
+const elementFollowMe = document.querySelector('#linkedIn');
+elementFollowMe.setAttribute('href', "https://www.linkedin.com/login");
+
+// Creating the new element
+const elementLi = document.createElement('li');
+const elementTextNode = document.createTextNode("ES6 features");
+elementLi.appendChild(elementTextNode);
+const elementJsTopicList = document.querySelector('#jsTopicList');
+elementJsTopicList.appendChild(elementLi);
+
+
+// add span elemnt with text using js
+
+const elementSpan = document.createElement("span");
+const spanText = document.createTextNode('Follow me social media');
+elementSpan.appendChild(spanText);
+const elementSelect = document.querySelector('.followMeSection');
+elementSelect.appendChild(elementSpan);
+
+// Remove element
+const elementControlFlow = document.querySelector('#controlFlow');
+const elementJsTopic = document.querySelector('#jsTopicList');
+elementJsTopic.removeChild(elementControlFlow);
+
+// Applying css 
+const elementListHeading = document.querySelector('#listHeading');
+elementListHeading.style.color = 'red';
+elementListHeading.style.border = "3px solid green";
+elementListHeading.style.backgroundColor = "yellow";
+elementListHeading.style.margin = "20px";
+elementListHeading.style.padding = "10px";
+// fontFamily
+
+//Event Handling
+function youClickedMe(){
+    console.log('Hey you clicked me...');
+    alert('You clicked me...');
+}
+
+const elementSelector = document.querySelector('#selector');
+elementSelector.addEventListener('click', ()=>{
+    alert('Hey I am selector and you clicked me. let me hit you back');
+});
+elementSelector.addEventListener('mouseover', ()=>{
+    elementSelector.style.color = 'blue';
+});
+
+
+
+
+
