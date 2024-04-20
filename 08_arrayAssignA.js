@@ -31,9 +31,9 @@ console.log(`Replace an element 'Orange' with 'Kiwi' :`);
 console.log(arrayFruits);
 
 console.log(`_-_-_-_-_- Question 7 -_-_-_-_-_`);
-var index = arrayFruits.splice(1,4);
+var index = arrayFruits.slice(1,5);
 console.log(`print the elements starting from index 1 to 4 :`);
-console.log(arrayFruits);
+console.log(index);
 
 console.log(`_-_-_-_-_- Question 8 -_-_-_-_-_`);
 const arrayFruits1 = ['Banana','Orange','Apple','Mango','Water Melon'];
